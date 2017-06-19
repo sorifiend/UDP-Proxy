@@ -9,9 +9,10 @@ The latest artifact can be found here: https://github.com/sorifiend/UDP-Proxy/co
 ---
 Usage Instructions:
 ---
-```
-  Usage: Server_Host_IP Server_Port_Out Proxy_Port_In"
+
+  Usage:  java -jar UDP_Proxy.jar  Server_IP_Outgoing  Proxy_Port_Outgoing  Proxy_Port_Incoming
   
+```
   For example:
   1) Scenario:
      Forward teamspeak server traffic to local port 9988.
