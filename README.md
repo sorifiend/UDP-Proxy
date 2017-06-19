@@ -11,7 +11,7 @@ Usage Instructions:
 ---
 
 ```
-  Usage:  java -jar UDP_Proxy.jar  Server_IP_Outgoing  Proxy_Port_Outgoing  Proxy_Port_Incoming
+  Usage:  java -jar UDP_Proxy-1.1.jar  Server_IP_Outgoing  Proxy_Port_Outgoing  Proxy_Port_Incoming
 ```
 
   Examples:
@@ -25,9 +25,10 @@ Usage Instructions:
      
      Incoming traffic on port 9987
      We want traffic to be redirected to port 9988 on the localhost (port 127.0.0.1)
-```
+
      Run:
-     java -jar UDP_Proxy.jar 127.0.0.1 9988 9987
+```
+     java -jar UDP_Proxy-1.1.jar 127.0.0.1 9988 9987
 ```
      
   2) Scenario:
@@ -39,9 +40,10 @@ Usage Instructions:
      
      Incoming traffic on port 23010
      We want traffic to be redirected to port 23010 on the server at mygame.example.com with IP 1.2.3.4 (Just an example)
-```
+
      Run:
-     java -jar UDP_Proxy.jar 1.2.3.4 23010 23010
+```
+     java -jar UDP_Proxy-1.1.jar 1.2.3.4 23010 23010
 ```
      Then they can connect to mygame.example.com via your connection by using your ip address and port 23010.
      If your IP was "203.0.113.5" then they would use: 203.0.113.5:23010
@@ -54,9 +56,10 @@ Usage Instructions:
      
      Incoming traffic on port 32100
      We want traffic to be redirected to local port 2017
-```
+     
      Run:
-     java -jar UDP_Proxy.jar 127.0.0.1 2017 32100
+```
+     java -jar UDP_Proxy-1.1.jar 127.0.0.1 2017 32100
 ```
 
 ---
