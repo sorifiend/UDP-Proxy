@@ -17,10 +17,12 @@ Usage Instructions:
   Examples:
   
   1) Scenario:
+  
      Forward teamspeak server traffic to local port 9988.
      (Handy for multiple child VM servers all on one IP address by using a proxy for different external ports):
   
      Specifics:
+     
      Incoming traffic on port 9987
      We want traffic to be redirected to port 9988 on the localhost (port 127.0.0.1)
 ```
@@ -29,10 +31,12 @@ Usage Instructions:
 ```
      
   2) Scenario:
+  
      Forward another computers UDP gaming traffic to a server via your IP address.
      (Handy for working around a firewall that IP blocked an external address)
      
      Specifics:
+     
      Incoming traffic on port 23010
      We want traffic to be redirected to port 23010 on the server at mygame.example.com with IP 1.2.3.4 (Just an example)
 ```
@@ -43,9 +47,11 @@ Usage Instructions:
      If your IP was "203.0.113.5" then they would use: 203.0.113.5:23010
      
   3) Scenario:
+  
      Forward incoming UDP server traffic to a different local port without conflicting with another server on the local network.
     
      Specifics:
+     
      Incoming traffic on port 32100
      We want traffic to be redirected to local port 2017
 ```
