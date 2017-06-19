@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package udp;
+package nz.co.nznetwork.udp;
 
 import java.net.*;
 import java.nio.ByteBuffer;
