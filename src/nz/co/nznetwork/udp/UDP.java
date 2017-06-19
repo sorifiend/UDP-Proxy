@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package udp;
+package nz.co.nznetwork.udp;
 
 import java.net.PortUnreachableException;
 import java.net.UnknownHostException;
