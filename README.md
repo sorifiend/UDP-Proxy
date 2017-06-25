@@ -41,14 +41,14 @@ Usage Instructions:
      
      Specifics:
      
-     Incoming traffic on port 23010 will be redirected to port 23010 on the server at mygame.example.com with IP 1.2.3.4 (Just an example)
+     Incoming traffic on port 23010 will be redirected to port 23010 on the server at mygame.example.com
      
      The connecting PC can then connect to mygame.example.com via your connection by using your ip address and port 23010.
-     For example, if your IP was "203.0.113.5" then they would use the following address to bayass the blocked IP: 203.0.113.5:23010
+     For example, if your IP was "203.0.113.5" then they would use the following address to bayass the blocked IP: 203.0.113.5:23010 (Note that in some games/apps that you need to enter the port seperate from the IP)
 
      Command to run:
 
-     java -jar UDP_Proxy-1.1.jar 1.2.3.4 23010 23010
+     java -jar UDP_Proxy-1.1.jar mygame.example.com 23010 23010
 
      
   Scenario 3:
