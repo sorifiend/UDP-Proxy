@@ -18,6 +18,8 @@ Usage Instructions:
   
   Scenario 1:
   
+     Use case:
+  
      Forward teamspeak server traffic to local port 9988.
      (Handy for multiple child VM servers all on one IP address by using a proxy for different external ports):
   
@@ -26,11 +28,13 @@ Usage Instructions:
      Incoming traffic on port 9987 will be redirected to port 9988 on the localhost (port 127.0.0.1)
 
      Command to run:
-```
+
      java -jar UDP_Proxy-1.1.jar 127.0.0.1 9988 9987
-```
+
      
   Scenario 2:
+  
+     Use case:
   
      Forward another computers UDP gaming traffic to a server via your IP address.
      (Handy for working around a firewall that IP blocked an external address)
@@ -43,11 +47,13 @@ Usage Instructions:
      For example, if your IP was "203.0.113.5" then they would use the following address to bayass the blocked IP: 203.0.113.5:23010
 
      Command to run:
-```
+
      java -jar UDP_Proxy-1.1.jar 1.2.3.4 23010 23010
-```
+
      
   Scenario 3:
+  
+     Use case:
   
      Forward incoming UDP server traffic to a different local port without conflicting with another server on the local network.
     
@@ -56,9 +62,8 @@ Usage Instructions:
      Incoming traffic on port 32100 will be redirected to local port 2017
      
      Command to run:
-```
+     
      java -jar UDP_Proxy-1.1.jar 127.0.0.1 2017 32100
-```
 
 ---
 Building
