@@ -11,7 +11,7 @@ Usage Instructions:
 ---
 
 ```
-  Usage:  java -jar UDP_Proxy-1.1.jar  Server_IP_Outgoing  Proxy_Port_Outgoing  Proxy_Port_Incoming
+  Usage:  java -jar UDP_Proxy-1.1.jar  Destination_Server_IP  Destination_Server_Port  Incoming_Proxy_Port
 ```
 
   Examples:
