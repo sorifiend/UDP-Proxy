@@ -76,5 +76,5 @@ Make sure you have Maven in your OS class path, and then run the following from 
   mvn package
 ```
 
-The resulting JAR for Bukkit can be found in the compiled-jar folder
+The resulting JAR can be found in the compiled-jar folder
 
